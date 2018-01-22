@@ -2,7 +2,17 @@ package Chapter7;
 
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Program grades the grades of multiple students using arrays.
+ *
+ * @author Ajith Melakayil
+ */
 public class C7_1{
+     /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int[] grade; int newest, best = 0;

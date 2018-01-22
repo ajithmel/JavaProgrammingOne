@@ -3,6 +3,10 @@ package Chapter7;
 import java.util.Scanner;
 import java.util.Arrays;
     public class Program7 {
+          /**
+ * Program shows shows an array and then shows the average of all the numbers combined
+ * @author Ajith Melakayil
+ */
         public static void main(String[] args){
             Scanner input = new Scanner(System.in);
             
@@ -18,7 +22,12 @@ import java.util.Arrays;
             System.out.println(Arrays.toString(numbers));
             
         }
-        
+         /**
+     * Method takes the amount of numbers inside the array
+     *
+     * @param array takes the first array
+     * @param arraysize is the amount of numbers in the number
+     */
         public static void input(double[] array, int arraysize){
             Scanner input = new Scanner(System.in);
             
@@ -30,6 +39,13 @@ import java.util.Arrays;
             
             
         }
+         /**
+     * Method shows and calculates the average 
+     *
+     * @param array takes the first array
+     * @param arraysize is the amount of numbers inside the array
+     * @return returns the average number after it is all calculated
+     */
         public static double aveRAGE(double[] array, double arraysize){
             
         double average = 0;    
