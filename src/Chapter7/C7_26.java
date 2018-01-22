@@ -8,7 +8,11 @@ import java.util.Scanner;
  * @author Ajith Melakayil
  */
 public class C7_26 {
-
+ /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args) {
         int[] list1;
         int[] list2;

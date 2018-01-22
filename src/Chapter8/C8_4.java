@@ -1,11 +1,16 @@
 package Chapter8;
 import java.util.Scanner;
 import java.util.Arrays;
-public class C8_4 {
       /**
  * Program displays a spreadsheet of employees hours throughout the week
  * @author Ajith Melakayil
  */
+public class C8_4 {
+         /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         
