@@ -1,13 +1,16 @@
 package Chapter8;
 
 import java.util.Scanner;
+
 /**
- * Program allows numbers to be inputted to a list for emplot=yees' spreadsheet using arrays
+ * Program allows numbers to be inputted to a list for employees' spreadsheet
+ * using arrays
  *
  * @author Ajith Melakayil
  */
 public class P8 {
-         /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -17,7 +20,7 @@ public class P8 {
         int person = 0;
         int day = 0;
         double[][] workarray = new double[4][5];
-        String entireweek[] = {"Sunday","Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday",};
+        String entireweek[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday",};
         String employee;
         String week;
         String amount;

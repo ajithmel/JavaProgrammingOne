@@ -2,13 +2,15 @@ package Chapter7;
 
 import java.util.Arrays;
 import java.util.Scanner;
+
 /**
  * Program takes two lists and compares them, all by using arrays.
  *
  * @author Ajith Melakayil
  */
 public class C7_26 {
- /**
+
+    /**
      * Main Method
      *
      * @param args arguments from command line prompt
@@ -33,11 +35,12 @@ public class C7_26 {
             System.out.println("Two lists are not strictly identical.");
         }
     }
+
     /**
      * Method that takes the array
      *
      * @param list1 takes the list in array format
-     * @param Scanner takes the amount of change and then multiplies the two
+     * @param input takes the amount of change and then multiplies the two
      * @return returns the array
      */
     public static int[] x(int[] list1, Scanner input) {
@@ -46,6 +49,7 @@ public class C7_26 {
         }
         return list1;
     }
+
     /**
      * Method that says if the arrays are equal or not
      *
@@ -53,11 +57,11 @@ public class C7_26 {
      * @param list2 takes the second amount in array format
      * @return returns the boolean amount based off the variables
      */
-    public static boolean equals(int[] list1, int[]list2){
-        if(list1.length != list2.length){
+    public static boolean equals(int[] list1, int[] list2) {
+        if (list1.length != list2.length) {
             return false;
-        } 
-        
+        }
+
         return Arrays.equals(list1, list2);
     }
 
