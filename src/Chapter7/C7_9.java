@@ -1,10 +1,14 @@
 package Chapter7;
-
-public class C7_9 {
     /**
  * Program shows the minimum number in the amount of numbers that is inserted into an array
  * @author Ajith Melakayil
  */
+public class C7_9 {
+     /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
     public static void main(String[] args){
         java.util.Scanner input = new java.util.Scanner(System.in);
         double[] values = new double[10];

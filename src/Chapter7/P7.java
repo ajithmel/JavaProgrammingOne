@@ -2,11 +2,16 @@ package Chapter7;
 
 import java.util.Scanner;
 import java.util.Arrays;
-    public class Program7 {
-          /**
+  /**
  * Program shows shows an array and then shows the average of all the numbers combined
  * @author Ajith Melakayil
  */
+    public class P7 {
+         /**
+     * Main Method
+     *
+     * @param args arguments from command line prompt
+     */
         public static void main(String[] args){
             Scanner input = new Scanner(System.in);
             
